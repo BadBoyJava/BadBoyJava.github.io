@@ -1,0 +1,12 @@
+666666666666666666
+// pull 从网页上面拉下来拉取同步      push  从本地推上去
+
+git init
+
+git add . 添加暂存区
+
+git remote add origin https://github.com/BadBoyJava/BadBoyJava.github.io.git 关联本地和远程
+
+git commit -m "注释"
+
+git pull --rebase origin master 
